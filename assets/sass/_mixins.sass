@@ -1,0 +1,21 @@
+@mixin mainButton()
+	color: #ffffff
+	background-color: #6059F6
+	border-radius: 30px
+	display: inline-block
+	padding: 12px 45px
+	transition: all 0.3s ease
+	&:hover
+		background-color: #290993
+		color: #ffffff
+@mixin addBgShape($url, $w, $h, $property)
+	content: ""
+	display: block
+	position: absolute
+	top: 0
+	#{$property}: 0
+	width: $w
+	height: $h
+	background: url($url) left center no-repeat
+	background-size: cover
+	z-index: -1
