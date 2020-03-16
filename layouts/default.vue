@@ -20,10 +20,6 @@
 <style lang="sass">
 body
 	font-family: 'Roboto', sans-serif
-	&::before
-		@include addBgShape('./../assets/images/bg-shape-left.png', 595px, 660px, left)
-	&::after
-		@include addBgShape('./../assets/images/bg-shape-right.png', 755px, 860px, right)
 a, a:hover
 	text-decoration: none
 ul

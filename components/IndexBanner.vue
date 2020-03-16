@@ -1,7 +1,7 @@
 <template>
-		<div class="container banner">
+		<div class="container banner bg-shape">
 			<div class="row banner-wrapper">
-				<div class="col-md-6 banner-description">
+				<div class="col-md-5 banner-description">
 					<div class="banner-title">
 						<h1 class="purple-title">
 							Travel More To Discover Yourself
@@ -16,7 +16,7 @@
 						<nuxt-link active-class="active" class="main-button" to="/">Get Started</nuxt-link>
 					</div>
 				</div>
-				<div class="col-md-6 banner-image">
+				<div class="col-md-7 banner-image">
 					<img src="@/assets/images/hero-img.png" class="img-fluid" alt="hero">
 				</div>
 			</div>
@@ -34,11 +34,19 @@
 		margin-bottom: 15px
 	&-text
 		margin-bottom: 40px
+	&-image
+		text-align: center
 .banner-button .home-button
 	display: inline-block	
 .purple-title
+	font-family: 'Roboto Condensed', sans-serif
 	font-size: 45px
 	text-transform: uppercase
 	color: #6059f6
-	font-weight: 700	
+	font-weight: 900
+.bg-shape
+	&::before
+		@include addBgShape('./../assets/images/bg-shape-left.png', 595px, 660px, left)
+	&::after
+		@include addBgShape('./../assets/images/bg-shape-right.png', 755px, 860px, right)
 </style>

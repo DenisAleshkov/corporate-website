@@ -11,7 +11,7 @@
         </div>
         <div class="services-list">
             <div class="row services-items">
-                <div class="col-md-4 item">
+                <div class="col-sm-4 col-md-4  item">
                     <div class="item-image">
                         <img src="@/assets/images/service1.png"  class="img-fluid" alt="service">
                     </div>
@@ -22,7 +22,7 @@
                        <p class="text">Great so dominion two seed give dry rule be fowl him female you will gathered creeping and created air</p>
                    </div>
                 </div>
-                 <div class="col-md-4 item">
+                 <div class="col-sm-4 col-md-4  item">
                     <div class="item-image">
                         <img src="@/assets/images/service2.png"  class="img-fluid" alt="service">
                     </div>
@@ -33,7 +33,7 @@
                        <p class="text">Great so dominion two seed give dry rule be fowl him female you will gathered creeping and created air</p>
                    </div>
                 </div>
-                <div class="col-md-4 item">
+                <div class="col-sm-4 col-md-4  item">
                     <div class="item-image">
                         <img src="@/assets/images/service3.png"  class="img-fluid" alt="service">
                     </div>
@@ -64,7 +64,7 @@
     text-align: center
     padding: 60px  40px
     &:not(:last-child)
-        margin-right: 35px
+        margin-right: 25px
     &-image
         min-height: 190px
     &-title
