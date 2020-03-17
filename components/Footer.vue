@@ -33,7 +33,9 @@
                         <div class="input-group mb-2 mr-sm-2 send-form">
                             <input type="text" class="form-control send-input" id="inlineFormInputGroupUsername2" placeholder="Email adress">
                             <div class="input-group-prepend">
-                                <div class="input-group-text send-btn">@</div>
+                                <div class="input-group-text footer-btn">
+                                    <span class="btn-icons">&#10004;</span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -65,7 +67,9 @@
         padding-top: 18px
         padding-bottom: 18px
     &-nav
-        text-align: center
+        display: flex
+        flex-direction: column
+        align-items: center
 .column
     &-link 
         color: #777777
@@ -88,11 +92,11 @@
             background-color: #04091e
             border-color: #333333
             color: #999999
-    &-btn
-        background-color: #6059f6
-        color: #ffffff
-        cursor: pointer
-        border: none
+.footer-btn
+    background-color: #6059f6
+    color: #ffffff
+    cursor: pointer
+    border: none
 .basement-link
     color: #6059f6
     &:hover

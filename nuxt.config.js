@@ -31,7 +31,8 @@ module.exports = {
   modules: ['@nuxtjs/style-resources'],
   styleResources: {
     sass: [
-      '@/assets/sass/_mixins.sass'
+      '@/assets/sass/_mixins.sass',
+      '@/assets/media/_media.sass'
       ]
   },
   plugins: [

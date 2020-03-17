@@ -1,5 +1,5 @@
 <template>
-		<div class="container banner bg-shape">
+		<div class="container banner bg-shape banner-margin">
 			<div class="row banner-wrapper">
 				<div class="col-md-5 banner-description">
 					<div class="banner-title">
@@ -17,13 +17,15 @@
 					</div>
 				</div>
 				<div class="col-md-7 banner-image">
-					<img src="@/assets/images/hero-img.png" class="img-fluid" alt="hero">
+					<img src="/images/hero-img.png" class="img-fluid" alt="hero">
 				</div>
 			</div>
 		</div>
 </template>
 <style lang="sass">
 .banner
+	&-margin
+		margin-bottom: 280px
 	&-wrapper
 		display: flex
 	&-description
@@ -46,7 +48,7 @@
 	font-weight: 900
 .bg-shape
 	&::before
-		@include addBgShape('./../assets/images/bg-shape-left.png', 595px, 660px, left)
+		@include addBgShape('/images/bg-shape-left.png', 595px, 660px, left)
 	&::after
-		@include addBgShape('./../assets/images/bg-shape-right.png', 755px, 860px, right)
+		@include addBgShape('/images/bg-shape-right.png', 755px, 860px, right)
 </style>

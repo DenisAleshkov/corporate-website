@@ -2,7 +2,7 @@
 	<div class="container offer">
 		<div class="row offer-items">
 			<div class="col-md-6 offer-image">
-				<img src="@/assets/images/tour1.png" alt="tour1" class="img-fluid">
+				<img src="/images/tour1.png" alt="tour1" class="img-fluid">
 				<PopUp/>
 			</div>
 			<div class="col-md-6 offer-image">
@@ -18,17 +18,17 @@
 						</p>
 					</div>
 				</div>
-				<img src="@/assets/images/tour2.png" alt="" class="img-fluid">
+				<img src="/images/tour2.png" alt="" class="img-fluid">
 				<PopUp/>
 			</div>
 		</div>
 		<div class="row offer-items">
 			<div class="col-md-7 offer-image">
-				<img src="@/assets/images/tour3.png" alt="tour1" class="img-fluid">
+				<img src="/images/tour3.png" alt="tour1" class="img-fluid">
 				<PopUp/>
 			</div>
 			<div class="col-md-5 offer-image">
-				<img src="@/assets/images/tour4.png" alt="tour1" class="img-fluid">
+				<img src="/images/tour4.png" alt="tour1" class="img-fluid">
 				<PopUp/>
 			</div>
 		</div>

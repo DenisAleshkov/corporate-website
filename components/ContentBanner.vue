@@ -3,7 +3,7 @@
 		<div class="container banner">
 			<div class="row banner-wrapper">
 				<div class="col-md-7 banner-image">
-					<img src="@/assets/images/about-img.png" class="img-fluid" alt="hero">
+					<img src="/images/about-img.png" class="img-fluid" alt="hero">
 				</div>
 				<div class="col-md-5 banner-description">
 					<div class="banner-title">
@@ -28,7 +28,6 @@
 </template>
 <style lang="sass">
 .content-banner
-	margin-top: 90px
 	padding-top: 130px
 	padding-bottom: 130px
 	background-color: #f8f8ff

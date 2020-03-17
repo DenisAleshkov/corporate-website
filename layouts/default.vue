@@ -8,7 +8,7 @@
   </div>
 </template>
 <script>
-	import Navbar from  '@/components/Header/Navbar';
+	import Navbar from  '@/components/Navbar/Navbar';
 	import Footer from '@/components/Footer';
 	export default{
 		components:{
@@ -18,6 +18,7 @@
 	}
 </script>
 <style lang="sass">
+@include bannerStyle()
 body
 	font-family: 'Roboto', sans-serif
 a, a:hover
@@ -30,6 +31,8 @@ li
 p
 	margin: 0
 	padding: 0
+textarea
+	resize: none
 .title
 	font-size: 34px
 	color: #2a2a2a

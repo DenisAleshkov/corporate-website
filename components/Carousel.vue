@@ -4,7 +4,7 @@
         <div class="container slider-wrapper">
         <div class="main-title">
             <div class="main-logo">
-                <img src="@/assets/images/section-icon.png" alt="Logo">
+                <img src="/images/section-icon.png" alt="Logo">
             </div>
             <h1 class="title">Our Popular Services</h1>
             <div class="title-text">
@@ -15,7 +15,7 @@
                <slick ref="slick" :options="slickOptions">
                     <div v-for="i in 3" :key="i" class="slick-slider">
                         <div class="avatar">
-                            <img src="@/assets/images/t-slider1.png" alt="avatar" class="avatar-image">
+                            <img src="/images/t-slider1.png" alt="avatar" class="avatar-image">
                         </div>
                         <div class="content">
                             <div class="content-name">
@@ -58,9 +58,7 @@
 .avatar
     margin-right: 40px
 .slider
-    margin: 130px 0
-    padding-top: 130px
-    padding-bottom: 100px
+    padding: 130px 0
     background-color: #f8f8ff
     &-wrapper
         max-width: 950px

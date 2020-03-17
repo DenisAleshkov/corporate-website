@@ -1,5 +1,6 @@
 <template>
-	<div class="services">
+	<div class="package">
+		<Header/>
 		<Services/>
 		<CardsImage />
 	</div>
@@ -7,10 +8,12 @@
 <script>
 	import Services from '@/components/Services';
 	import CardsImage from '@/components/CardsImage';
+	import Header from '@/components/Header/ServicesHeader';
 	export default{
 		components:{
 			Services,
-			CardsImage
+			CardsImage,
+			Header
 		}
 	} 
 </script>

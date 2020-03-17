@@ -3,6 +3,3 @@
 		<img src="/logo.png">
 	</nuxt-link>	
 </template>
-<style lang="sass">
-	
-</style>

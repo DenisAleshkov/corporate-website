@@ -28,7 +28,7 @@
 </div>
 </template>
 <script>
-  import Logo from '@/components/Header/Logo'
+  import Logo from '@/components/Navbar/Logo'
   export default{
     components:{
       Logo
