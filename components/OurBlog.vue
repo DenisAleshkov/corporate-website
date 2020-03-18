@@ -1,5 +1,5 @@
 <template>
-	<div class="services-bg">
+	<div class="services-bg blog-block">
 	    <div class="container services">
 	        <div class="main-title">
 	            <div class="main-logo">
@@ -14,7 +14,7 @@
 	        	<div class="col-md-4 blog-item">
 	        		<div class="blog-wrapper">
 		        		<div class="blog-image">
-		        			<img src="/images/blog-1.png" alt="blog1" class="img-fluid">
+		        			<img src="/images/blog-1.png" alt="blog1" class="img-fluid full-blog">
 		        		</div>
 		        		<div class="blog-content">
 		        			<h1 class="item-title">
@@ -39,7 +39,7 @@
 	        	<div class="col-md-4 blog-item">
 	        		<div class="blog-wrapper">
 		        		<div class="blog-image">
-		        			<img src="/images/blog-2.png" alt="blog1" class="img-fluid">
+		        			<img src="/images/blog-2.png" alt="blog1" class="img-fluid full-blog">
 		        		</div>
 		        		<div class="blog-content">
 		        			<h1 class="item-title">
@@ -64,7 +64,7 @@
 	        	<div class="col-md-4 blog-item">
 	        		<div class="blog-wrapper">
 		        		<div class="blog-image">
-		        			<img src="/images/blog-3.png" alt="blog1" class="img-fluid">
+		        			<img src="/images/blog-3.png" alt="blog1" class="img-fluid full-blog">
 		        		</div>
 		        		<div class="blog-content">
 		        			<h1 class="item-title">
@@ -93,9 +93,12 @@
 <script>
 </script>
 <style lang="sass">
+.blog-block
+	margin-top: 130px
 .services-bg
 	padding: 130px 0
 	background-color: #f8f8ff
+	margin-bottom: 130px
 .blog
 	&-content
 		background-color: #ffffff

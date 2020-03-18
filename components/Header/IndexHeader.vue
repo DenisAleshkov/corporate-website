@@ -1,7 +1,7 @@
 <template>
-		<div class="container banner bg-shape banner-margin">
+		<div class="container banner bg-shape index-banner">
 			<div class="row banner-wrapper">
-				<div class="col-md-5 banner-description">
+				<div class="col-md-5 banner-description banner-respons">
 					<div class="banner-title">
 						<h1 class="purple-title">
 							Travel More To Discover Yourself
@@ -23,9 +23,10 @@
 		</div>
 </template>
 <style lang="sass">
+.index-banner
+	margin-top: 50px
+	margin-bottom: 280px
 .banner
-	&-margin
-		margin-bottom: 280px
 	&-wrapper
 		display: flex
 	&-description

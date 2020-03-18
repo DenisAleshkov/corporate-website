@@ -1,5 +1,5 @@
 <template>
-	<div class="banner-bg">
+	<div class="banner-bg banner-margin">
 		<div class="container banner-header">
 			<div class="banner-description banner-mw">
 				<div class="banner-title">

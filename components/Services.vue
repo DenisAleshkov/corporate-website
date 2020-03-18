@@ -10,38 +10,44 @@
             </div>
         </div>
           <div class="row services-items">
-              <div class="col-sm-4 col-md-4  item">
-                  <div class="item-image">
-                      <img src="/images/service1.png"  class="img-fluid" alt="service">
-                  </div>
-                 <h1 class="item-title">
-                     Hotel Booking
-                 </h1>
-                 <div class="item-text">
-                     <p class="text">Great so dominion two seed give dry rule be fowl him female you will gathered creeping and created air</p>
-                 </div>
+              <div class="col-md-4 item">
+                <div class="item-bg">
+                    <div class="item-image">
+                        <img src="/images/service1.png"  class="img-fluid" alt="service">
+                    </div>
+                   <h1 class="item-title">
+                       Hotel Booking
+                   </h1>
+                   <div class="item-text">
+                       <p class="text">Great so dominion two seed give dry rule be fowl him female you will gathered creeping and created air</p>
+                   </div>
+                </div>
               </div>
-               <div class="col-sm-4 col-md-4  item">
-                  <div class="item-image">
-                      <img src="/images/service2.png"  class="img-fluid" alt="service">
+               <div class="col-md-4 item">
+                  <div class="item-bg">
+                    <div class="item-image">
+                        <img src="/images/service2.png"  class="img-fluid" alt="service">
+                    </div>
+                   <h1 class="item-title">
+                      Flight Booking
+                   </h1>
+                   <div class="item-text">
+                       <p class="text">Great so dominion two seed give dry rule be fowl him female you will gathered creeping and created air</p>
+                   </div>
                   </div>
-                 <h1 class="item-title">
-                    Flight Booking
-                 </h1>
-                 <div class="item-text">
-                     <p class="text">Great so dominion two seed give dry rule be fowl him female you will gathered creeping and created air</p>
-                 </div>
               </div>
-              <div class="col-sm-4 col-md-4  item">
-                  <div class="item-image">
-                      <img src="/images/service3.png"  class="img-fluid" alt="service">
-                  </div>
-                 <h1 class="item-title">
-                    Destination Booking
-                 </h1>
-                 <div class="item-text">
-                     <p class="text">Great so dominion two seed give dry rule be fowl him female you will gathered creeping and created air</p>
-                 </div>
+              <div class="col-md-4 item">
+                <div class="item-bg">
+                    <div class="item-image">
+                        <img src="/images/service3.png"  class="img-fluid" alt="service">
+                    </div>
+                   <h1 class="item-title">
+                      Destination Booking
+                   </h1>
+                   <div class="item-text">
+                       <p class="text">Great so dominion two seed give dry rule be fowl him female you will gathered creeping and created air</p>
+                   </div>
+                </div>
               </div>
           </div>
     </div>
@@ -53,15 +59,16 @@
     &-items
         flex-wrap: nowrap
 .item
-    background-color: #f8f8ff
     display: flex
     flex-direction: column
     align-items: center
-    transition: all .5s ease
     text-align: center
-    padding: 60px  40px
-    &:not(:last-child)
-        margin-right: 25px
+    &-bg
+      transition: all .5s ease
+      padding: 60px 40px
+      background-color: #f8f8ff
+      &:hover
+        background-color: #ffffff
     &-image
         min-height: 190px
     &-title
@@ -69,7 +76,5 @@
         font-size: 20px
         font-weight: 700
         margin-top: 20px
-        margin-bottom: 20px 
-    &:hover
-        background-color: #ffffff
+        margin-bottom: 20px
 </style>

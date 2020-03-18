@@ -94,7 +94,10 @@
 			.item-title
 				font-size: 16px
 				margin-bottom: 5px
+	&-form
+		margin-bottom: 130px
 .send-btn
+	border: none
 	padding: 10px 40px
 	border-radius: 5px
 </style>

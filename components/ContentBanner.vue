@@ -27,8 +27,12 @@
 	</div>
 </template>
 <style lang="sass">
+.banner-image
+	display: flex
+	align-items: center
 .content-banner
 	padding-top: 130px
 	padding-bottom: 130px
 	background-color: #f8f8ff
+	margin-top: 130px
 </style>

@@ -1,5 +1,5 @@
 <template>
-	<div class="container banner bg-shape">
+	<div class="container banner search-banner">
 		<div class="row banner-wrapper">
 			<div class="col-md-6 banner-description">
 				<div class="banner-title">
@@ -72,4 +72,6 @@
 	background-color: #f8f8ff
 	.item-title
 		text-align: center
+	&-banner
+		margin-bottom: 130px
 </style>

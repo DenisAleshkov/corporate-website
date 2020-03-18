@@ -1,7 +1,7 @@
 <template>
 	<div class="container offer">
 		<div class="row offer-items">
-			<div class="col-md-6 offer-image">
+			<div class="col-md-6 offer-image mrg-to-up">
 				<img src="/images/tour1.png" alt="tour1" class="img-fluid">
 				<PopUp/>
 			</div>
@@ -28,7 +28,7 @@
 				<PopUp/>
 			</div>
 			<div class="col-md-5 offer-image">
-				<img src="/images/tour4.png" alt="tour1" class="img-fluid">
+				<img src="/images/tour4.png" alt="tour1" class="img-fluid full-tour">
 				<PopUp/>
 			</div>
 		</div>
@@ -44,6 +44,8 @@
 </script>
 <style lang="sass">
 .offer
+	margin-top: 130px
+	margin-bottom: 130px
 	&-title
 		padding: 10px 50px
 	&-text

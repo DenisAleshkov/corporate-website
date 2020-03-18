@@ -3,8 +3,8 @@
 		<IndexHeader/>	
 		<Services/>
 		<ContentBanner/>
-		<Carousel/>
 		<CardsImage/>
+		<Carousel/>
 		<SearchForm/>
 		<OurBlog/>
 	</div>

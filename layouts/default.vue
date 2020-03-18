@@ -24,7 +24,7 @@ body
 a, a:hover
 	text-decoration: none
 ul
-	margin-left: 0
+	margin: 0
 	padding-left: 0
 li
 	list-style-type: none 
@@ -45,4 +45,6 @@ textarea
 .main-title
 	margin-bottom: 80px
 	text-align: center
+.banner-margin
+	margin-bottom: 130px
 </style>

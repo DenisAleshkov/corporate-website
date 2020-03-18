@@ -2,6 +2,7 @@
 <template>
     <div class="slider">
         <div class="container slider-wrapper">
+            <div class="slider-box">
         <div class="main-title">
             <div class="main-logo">
                 <img src="/images/section-icon.png" alt="Logo">
@@ -13,7 +14,7 @@
         </div>
         <client-only>
                <slick ref="slick" :options="slickOptions">
-                    <div v-for="i in 3" :key="i" class="slick-slider">
+                    <div v-for="i in 3" :key="i" class="slick-slider my-slick">
                         <div class="avatar">
                             <img src="/images/t-slider1.png" alt="avatar" class="avatar-image">
                         </div>
@@ -30,6 +31,7 @@
                </slick>
         </client-only>
         </div>
+    </div>
     </div>
 </template>
 
@@ -48,8 +50,7 @@
 </script>
 
 <style lang="sass">
-.slick-slider
-    display: flex !important
+.my-slick
     background-color: #ffffff
     border-radius: 20px
     align-items: center
@@ -57,7 +58,10 @@
     padding: 15px 25px
 .avatar
     margin-right: 40px
+    display: inline-block
 .slider
+    margin-top: 130px
+    margin-bottom: 130px
     padding: 130px 0
     background-color: #f8f8ff
     &-wrapper
@@ -78,6 +82,8 @@
 .content-text .text
     font-style: italic
 .content
+    display: inline-block
+    max-width: 70%
     &-name
         margin-bottom: 10px
         .name

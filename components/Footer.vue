@@ -2,13 +2,13 @@
     <footer class="footer">
         <div class="container footer-container">
             <div class="row footer-content">
-                <div class="col-md-4 footer-about">
+                <div class="col-md-5 footer-about footer-mrg">
                     <h1 class="footer-title">About agensy</h1>
                     <div class="footer-text">
                         <p>The world has become so fast paced that people don’t want to stand by reading a page of information to be they would much rather look at a presentation and understand</p>
                     </div>
                 </div>  
-                <div class="col-md-4 footer-nav">
+                <div class="col-md-3 footer-nav footer-mrg">
                     <h1 class="footer-title">Navigation links</h1>
                     <div class="column">
                         <ul class="column-list">
@@ -69,7 +69,7 @@
     &-nav
         display: flex
         flex-direction: column
-        align-items: center
+        align-items: flex-start
 .column
     &-link 
         color: #777777
