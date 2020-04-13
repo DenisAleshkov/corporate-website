@@ -21,10 +21,13 @@
                   <nuxt-link to="/contacts" active-class="active" class="nav-link">Contacts</nuxt-link>
                 </li>
               </ul>
-            <div class="navbar-button">
-              <nuxt-link to="/" active-class="active" class="main-button">Get Started</nuxt-link> 
+              <div class="navbar-button">
+                  <nuxt-link to="/login"  class="main-button" v-if="!hasToken">Login</nuxt-link>
+                  <a @click.prevent="logout" href="#"  class="main-button" v-else>
+                    Logout
+                  </a>
+              </div>
             </div>
-          </div>
         </nav>
       </div>
   </div>
@@ -34,12 +37,24 @@
   export default{
     components:{
       Logo
+    },
+    computed: {
+      hasToken() {
+        return this.$store.getters.hasToken
+      }
+    },
+    methods: {
+      logout() {
+        this.$store.dispatch('logout')
+        this.$router.push('/login')
+      }
     }
   }
 </script>
 
 <style lang="sass">
 .navbar
+  z-index: 999
   padding: 20px 0
   flex-grow: 1
   &-button

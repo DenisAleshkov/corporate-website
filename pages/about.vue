@@ -17,6 +17,7 @@
 			ContentBanner,
 			Header,
 			SearchForm
-		}
+		},
+		middleware: 'authenticated'
 	}
 </script>

@@ -3,7 +3,7 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'app',
+    title: 'Safario',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -28,16 +28,27 @@ module.exports = {
     'slick-carousel/slick/slick.css',
     'slick-carousel/slick/slick-theme.css'
   ],
-  modules: ['@nuxtjs/style-resources'],
+  modules: [
+    '@nuxtjs/style-resources',
+    '@nuxtjs/axios',
+    '@nuxtjs/auth'
+  ],
   styleResources: {
     sass: [
       '@/assets/sass/_mixins.sass',
-      '@/assets/media/_media.sass'
+      '@/assets/media/_media.sass',
+      '@/assets/sass/_main.sass'
       ]
   },
   plugins: [
     { src: "~plugins/slick-slide.js", mode: 'client' }
-],
+  ],
+  auth: {
+  // Options
+  },
+  loading: {
+    color: '#6059F6'
+  },
   /*
   ** Build configuration
   */

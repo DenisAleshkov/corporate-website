@@ -32,21 +32,21 @@
 						  <input type="text" class="form-control input-search" placeholder="дд.мм.гггг" aria-label="Username" aria-describedby="basic-addon1">
 					  </div>
 					  <div class="form-group">
-					    <select class="form-control select-search" id="exampleFormControlSelect1">
+					    <select class="form-control select-search">
 					      <option value="disabled" disabled selected>Category</option>
 					      <option class="option-control">8 AM</option>
 					      <option class="option-control">12 PM</option>
 					    </select>
 					  </div>
  					  <div class="form-group select-search">
-					    <select class="form-control select-search" id="exampleFormControlSelect1">
+					    <select class="form-control select-search">
 					      <option value="disabled" disabled selected>Tour duration</option>
 					      <option class="option-control">8 AM</option>
 					      <option class="option-control">12 PM</option>
 					    </select>
 					  </div>
  					  <div class="form-group">
-					    <select class="form-control select-search" id="exampleFormControlSelect1">
+					    <select class="form-control select-search">
 					      <option value="disabled" disabled selected>Price range</option>
 					      <option class="option-control">8 AM</option>
 					      <option class="option-control">12 PM</option>
